@@ -1,0 +1,122 @@
+.grid-container{
+    width: 320px;
+    height: 320px;
+    background-color: var(--darkgrey);
+    border: 2px solid var(--darkgrey);
+    border-radius: 0.5rem;
+}
+.grid-container-loader{
+    width: 320px;
+    height: 320px;
+    background-color: var(--darkgrey);
+    border: 2px solid var(--darkgrey);
+    border-radius: 0.5rem;
+}
+
+.grid-container:hover{
+    border-color: var(--green);
+    transition: all 0.5s;
+}
+.grid-container-red:hover{
+    border-color: var(--red);
+    transition: all 0.5s;
+
+}
+.info-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin:  1.5rem;
+
+}
+.logo{
+  
+    height: 3.5rem;
+
+}
+.coin-symbol{
+
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.coin-name{
+
+    color: var(--grey);
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.name-col{
+    display: flex;
+    flex-direction: column;
+    gap:  0.5rem;
+
+}
+.chip-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    margin:  1.5rem;
+
+
+}
+.price-chip{
+    border: 2px solid var(--green);
+    border-radius: 1rem;
+    padding: 0.35rem 1.25rem;
+    text-align: center;
+    font-weight: 500;
+    font-size:  1rem;
+    color: var(--green);
+    min-width:60px;
+}
+.chip-red{
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+.icon-chip{
+    border: 2px solid var(--green);
+    color: var(--green);
+    border-radius: 50%;    
+    justify-content: center;
+     align-items: center;
+    display: flex;
+  
+    height: 2rem !important ;
+    width: 2rem  !important;
+    font-size: 1rem;
+
+}
+.icon-red-chip{
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+.info-container{
+    margin: 1.5rem;
+}
+.coin-price{
+  color: var(--green);
+  font-size: 1.3rem;
+  
+}
+.total-volume{
+    color: var(--grey);
+    font-size: 1rem;
+    font-weight: 600;
+    margin:  1.5rem;
+}
+.market-cap{
+    color: var(--grey);
+    font-size: 1rem;
+    font-weight: 600;
+    margin:  1.5rem;
+
+    
+    
+}

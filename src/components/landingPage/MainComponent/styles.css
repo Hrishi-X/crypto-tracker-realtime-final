@@ -1,0 +1,100 @@
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+    align-items: flex-start;
+
+}
+.track-crypto-heading,.real-time-heading{
+margin: 0;
+font-size: 6rem;
+}
+.track-crypto-heading{
+    color: var(--white);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--white);
+}
+.real-time-heading{
+   color: var(--blue);
+    }
+    .track-crypto-heading:hover{
+        color: var(--black);
+        transition: all 0.3s;
+    
+        -webkit-text-stroke-color: var(--white);
+    }
+    .info-text{
+        font-size: 1rem;
+        color: var(--grey);
+    }
+    .btn-flex{
+        display: flex;
+        justify-content: flex-start;
+        gap: 1.5rem;
+        align-items: center;
+        margin-top: 2 rem;
+    }
+    .Right-container{
+     width: 50%;
+     position: relative;
+    
+    }
+    .image{
+        position: absolute;
+        min-width: 620px;
+        width: 50%;
+        
+       
+        /* height: 800px; */
+        /* background-color: black;  */
+        right: 0;
+    }
+    @media only screen  and (max-width:1250px){
+        .track-crypto-heading,.real-time-heading{
+            margin: 0;
+            font-size: 5rem;
+            }
+    }
+    @media only screen  and (max-width:1000px){
+        .image{
+            position: absolute;
+            min-width: 450px;
+            width: 50%;
+           
+            /* height: 800px; */
+            /* background-color: black;  */
+          
+        }
+    }
+    @media only screen  and (max-width:800px){
+        .flex-info{
+            flex-direction: column;
+
+        }
+        .Right-container{
+            margin: auto;
+            display: block;
+        }
+        
+        .image{
+            position: absolute;
+            min-width: 290px;
+            width: 50%;
+            left:-39px;   
+           margin-top: 1rem;
+            /* height: 800px; */
+            /* background-color: black; s */
+          
+        }
+        .track-crypto-heading,.real-time-heading{
+            margin: 0;
+            font-size: 3rem;
+            text-align: center;
+            }
+            .info-text{
+                text-align: center;
+            }
+            .btn-flex{
+                justify-content: center;
+            }
+    }

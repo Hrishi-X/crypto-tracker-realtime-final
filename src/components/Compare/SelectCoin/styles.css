@@ -1,0 +1,5 @@
+.coin-flex{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}

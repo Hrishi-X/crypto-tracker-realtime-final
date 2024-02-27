@@ -1,0 +1,68 @@
+.list-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin:  1.5rem;
+    padding: 1rem;
+    border-radius: 3rem;
+
+}
+.list-row:hover{
+    background-color: var(--darkgrey);
+
+}
+ .list-row td{
+    text-align: left;
+    width: 19%;
+
+
+}
+.td-image{
+    width: 3rem !important;
+    margin-right: 1.9rem;
+}
+.td-right-align{
+    text-align: right;
+}
+.td-centre-align{
+text-align: center;
+}
+@media only screen and (max-width:780px) {
+    .td-icon{
+        display: none;
+    }
+    .list-row td{
+       width: auto;
+    }
+    
+    .td-total-volume1{
+        display: none;
+    }
+    .list-row{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.1rem;
+        margin:  0.5rem;
+        padding: 1rem;
+        
+        border-radius: 3rem;
+        
+    }
+    .td-image{
+        width: 3rem !important;
+        margin-right: 1.9rem;
+      
+    }
+    .market-cap{
+        display: none;
+
+    }
+    .list-row td{
+        text-align: left;
+        width: 50%;
+    
+    
+    }
+}

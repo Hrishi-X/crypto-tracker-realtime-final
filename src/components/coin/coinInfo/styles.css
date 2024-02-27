@@ -1,0 +1,11 @@
+.name{
+    padding-top:  1rem;
+}
+.desc{
+padding-bottom:  1rem;
+text-align: justify;
+cursor: pointer;
+}
+.desc a{
+    color: var(--blue)!important;
+}

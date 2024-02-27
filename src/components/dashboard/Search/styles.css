@@ -1,0 +1,29 @@
+.search-flex{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+     color: var(--grey);
+     background-color: var(--darkgrey);
+     width: 75%;
+     margin: 1rem;
+     margin-right: auto;
+     margin-left: auto;    
+     border-radius: 3rem;
+     font-size: 1.2rem;
+}
+.search-flex input{
+    width: 100%;
+     color: var(--grey);
+     background-color: var(--darkgrey);
+     font-size: 1.2rem;
+     border: none;
+     border-radius: 3rem;
+     font-family: "Exo 2";
+    }
+
+
+.search-flex input:focus{
+    outline: none;
+}
